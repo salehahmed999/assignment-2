@@ -1,5 +1,5 @@
 @media screen and (max-width:600px){
-    /* navbar section style here */
+    /* navbar section responsive style here */
     .nav-container {
         padding: 32px;
     }
@@ -19,7 +19,7 @@
         font-size: 20px;
     }
 
-    /* banner section responsive here */
+    /* banner section responsive style here */
     .heading h1 {
         color: #FFF;
         font-size: 30px;
@@ -49,7 +49,7 @@
     
 
 
-    /* main section start here */
+    /* main section top part responsive start here */
     .main-top {
         flex-direction: column;
     }
@@ -88,7 +88,7 @@
     }
 
 
-    /* middle section responsive start here */
+    /* main section 2nd top part responsive start here */
     .middle-section {
         width: 100%;
         margin: 0 auto;
@@ -169,7 +169,7 @@
 
 
 
-    /* Why chose us section start here */
+    /* Why chose us section responsive start here */
     .card-section {
         flex-direction: column;
     }

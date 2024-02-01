@@ -7,7 +7,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-/* navbar section style */
+/* navbar section style start here */
 .nav-container {
     margin: 0 auto;
     padding: 50px 130px;
@@ -46,7 +46,7 @@
     display: none;
 }
 
-/* banner section style */
+/* banner section style here */
 .banner-section {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
@@ -103,7 +103,7 @@
     gap: 24px;
 }
 
-/* main part style */
+/* main section top part style here */
 .main-top {
     display: flex;
     margin: 100px auto;
@@ -176,7 +176,7 @@
     border: none;
 }
 
-/* middle section style */
+/* main section 2nd top part style start here */
 .middle-section {
     width: 87%;
     margin: 0 auto;
@@ -198,7 +198,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-left: 500px;
+    margin-left: 600px;
     margin-bottom: 50px;
 }
 
@@ -330,7 +330,7 @@
 }
 
 
-/* mid-bottom section style */
+/* why chose us section style start here */
 .mid-bottom-section {
     width: 87%;
     margin: 100px auto;
@@ -351,7 +351,7 @@
     font-weight: 400;
     line-height: 26px;
     width: 643px;
-    margin-left: 500px;
+    margin-left: 600px;
     margin-bottom: 80px;
 }
 
@@ -462,7 +462,7 @@
     gap: 25px;
 }
 
-/* newsletter style */
+/* newsletter section style start here */
 .newsletter-section {
     width: 87%;
     margin: 0 auto;
@@ -561,7 +561,7 @@
 
 
 
-/* footer style */
+/* footer section style start here */
 footer{
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
