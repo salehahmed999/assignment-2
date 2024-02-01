@@ -29,6 +29,7 @@
     display: flex;
 }
 
+
 .right li {
     list-style: none;
     margin-left: 42px;
@@ -41,40 +42,41 @@
     color: #424247;
 }
 
+.nav-container > .fa-solid{
+    display: none;
+}
+
 /* banner section style */
 .banner-section {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
-    height: 600px;
-    /* object-fit: cover; */
+    background-position: center;
+    height: 70vh;
     width: 87%;
     margin: 0 auto;
-    padding: 0 130px;
     text-align: center;
     border-radius: 16px;
+    position: relative;
 
 }
 
-.heading {
-    padding-top: 100px;
-
+.banner1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .heading h1 {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-bottom: 20px;
 }
 
 .heading p {
     color: #FFF;
-    /* width: 650px; */
-    padding-left: 340px;
-    padding-right: 340px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -592,4 +594,11 @@ footer{
     margin-left: 15px;
     margin-top: 35px;
     padding-bottom: 100px;
+}
+
+
+
+
+.hide{
+    display: none;
 }

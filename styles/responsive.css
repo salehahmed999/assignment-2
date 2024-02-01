@@ -1,0 +1,248 @@
+@media screen and (max-width:600px){
+    /* navbar section style here */
+    .nav-container {
+        padding: 32px;
+    }
+
+    .left {
+        color: #131318;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .nav-container > .fa-solid{
+        display: contents;
+        font-size: 20px;
+    }
+
+    /* banner section responsive here */
+    .heading h1 {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .heading p {
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .dropdown>ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .dropdown button {
+        width: 274px;
+    }
+
+    
+    
+
+
+    /* main section start here */
+    .main-top {
+        flex-direction: column;
+    }
+
+    .text-item {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .text-item>h1 {
+        margin-bottom: 25px;
+        color: #131318;
+        font-size: 27px;
+    }
+
+    .text-item p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .text-item .ul-list {
+        width: 100%;
+    }
+
+    .text-item .para-2 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .img-item {
+        width: 100%;
+        height: 550px;
+    }
+
+
+    /* middle section responsive start here */
+    .middle-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mid-header h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .mid-header p {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .mid-image {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        padding: 32px;
+    }
+
+    .grid-item-1 {
+        grid-column: 1/span 12;
+        grid-row: 1/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-2 {
+        grid-column: 1/span 12;
+        grid-row: 2/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-3 {
+        grid-column: 1/span 12;
+        grid-row: 3/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-4 {
+        grid-column: 1/span 12;
+        grid-row: 4/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-5 {
+        grid-column: 1/span 12;
+        grid-row: 5/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-6 {
+        grid-column: 1/span 12;
+        grid-row: 6/span 1;
+        position: relative;
+    }
+
+
+
+    .grid-item-7 {
+        grid-column: 1/span 12;
+        grid-row: 7/span 1;
+        position: relative;
+    }
+
+
+
+
+
+
+    /* Why chose us section start here */
+    .card-section {
+        flex-direction: column;
+    }
+
+    .mid-bottom-section h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .mid-bottom-section p {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .div3 {
+        width: 100%;
+        height: 380px;
+    }
+
+    /* newsletter section responsive start here */
+    .newsletter-section {
+        flex-direction: column;
+        width: 100%;
+        padding: 32px;
+        gap: 20px;
+    }
+
+    .btn-section {
+        width: 100%;
+    }
+
+    .img-section {
+        position: relative;
+    }
+
+    .img-section img {
+        width: 100%;
+    }
+
+    .discount-section {
+        width: 46%;
+        height: 80px;
+    }
+
+    .discount-section p {
+        font-size: 14px;
+
+    }
+
+    .discount-section h1 {
+        font-size: 22px;
+    }
+
+    /* footer section responsive start here */
+
+
+    .footer-para {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+}
